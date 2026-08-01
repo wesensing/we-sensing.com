@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {squarespace-headers}
+  <link rel="icon" href="/assets/logos/WE-Sensing.png" type="image/png">
   <link rel="stylesheet" href="/assets/page-extensions.css">
   <squarespace:script data-preserve-html-node="true" src="team-data.js" combo="true" />
   <squarespace:script data-preserve-html-node="true" src="team-renderer.js" combo="true" />

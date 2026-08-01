@@ -14,7 +14,7 @@
             name: 'Dr. Xingyu Wang',
             role: 'Co-Founder and CEO',
             initials: 'XW',
-            portrait: 'xingyu.png',
+            portrait: 'assets/team/xingyuwang.png',
             portraitAlt: 'Dr. Xingyu Wang'
           },
           {
@@ -22,7 +22,7 @@
             name: 'Dr. Baikun Li',
             role: 'Co-Founder',
             initials: 'BL',
-            portrait: 'baikun.png',
+            portrait: 'assets/team/baikunli.png',
             portraitAlt: 'Dr. Baikun Li'
           },
           {
@@ -30,7 +30,7 @@
             name: 'Dr. Yu Lei',
             role: 'Co-Founder',
             initials: 'YL',
-            portrait: 'yulei.png',
+            portrait: 'assets/team/yulei.png',
             portraitAlt: 'Dr. Yu Lei'
           }
         ]
@@ -46,16 +46,16 @@
             name: 'Alyssa Sharrow',
             role: 'Product Design',
             initials: 'AS',
-            portrait: null,
-            portraitAlt: 'Portrait of Alyssa Sharrow to be added following final review'
+            portrait: 'assets/team/alyssasharrow.png',
+            portraitAlt: 'Alyssa Sharrow'
           },
           {
             id: 'fritz-sonnichsen',
             name: 'Fritz Sonnichsen',
             role: 'Electronics Engineering',
             initials: 'FS',
-            portrait: null,
-            portraitAlt: 'Portrait of Fritz Sonnichsen to be added following final review'
+            portrait: 'assets/team/fritzsonnichsen.png',
+            portraitAlt: 'Fritz Sonnichsen'
           }
         ]
       },
@@ -70,7 +70,7 @@
             name: 'James Towey',
             role: 'Business Mentor',
             initials: 'JT',
-            portrait: 'jim.png',
+            portrait: 'assets/team/jamestowey.png',
             portraitAlt: 'James Towey'
           },
           {
@@ -78,7 +78,7 @@
             name: 'Gregory Lewis',
             role: 'Business Mentor',
             initials: 'GL',
-            portrait: 'greg.png',
+            portrait: 'assets/team/gregorylewis.png',
             portraitAlt: 'Gregory Lewis'
           }
         ]
@@ -94,16 +94,16 @@
             name: 'Katherine Burns, MD',
             role: 'Women’s Health and Reproductive Disease',
             initials: 'KB',
-            portrait: null,
-            portraitAlt: 'Portrait of Katherine Burns, MD to be added following final review'
+            portrait: 'assets/team/katherineburns.png',
+            portraitAlt: 'Katherine Burns, MD'
           },
           {
             id: 'joel-levine',
             name: 'Joel Levine, MD',
             role: 'Cancer Research',
             initials: 'JL',
-            portrait: null,
-            portraitAlt: 'Portrait of Joel Levine, MD to be added following final review'
+            portrait: 'assets/team/joellevine.png',
+            portraitAlt: 'Joel Levine, MD'
           }
         ]
       }

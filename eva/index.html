@@ -32,7 +32,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=Manrope:wght@400;500;600&amp;family=Newsreader:opsz,wght@6..72,400;6..72,500&amp;display=swap" rel="stylesheet">
-  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="../assets/logos/EVA.png" type="image/png">
   <link rel="stylesheet" href="../style.css">
   <link rel="stylesheet" href="../assets/page-extensions.css">
   <script src="../scripts/eva-content.js" defer></script>
@@ -124,34 +124,27 @@
         <div class="eva-product-gallery reveal">
           <article class="eva-gallery-card eva-gallery-card--front">
             <div class="eva-gallery-card__meta"><span>01</span><h3>Pad front view</h3></div>
-            <div class="eva-mini-pad eva-mini-pad--front" role="img" aria-label="Conceptual front view of the EVA sensing pad"><i></i><b></b></div>
+            <img class="eva-gallery-image eva-gallery-image--pad" src="../assets/eva/eva-pad.png" alt="Front view of the EVA sensing pad">
           </article>
           <article class="eva-gallery-card eva-gallery-card--back">
             <div class="eva-gallery-card__meta"><span>02</span><h3>Pad rear view</h3></div>
-            <div class="eva-mini-pad eva-mini-pad--back" role="img" aria-label="Conceptual rear view of the EVA sensing pad"><i></i><b></b></div>
+            <img class="eva-gallery-image eva-gallery-image--pad" src="../assets/eva/eva-pad-back.png" alt="Rear view of the EVA sensing pad">
           </article>
           <article class="eva-gallery-card eva-gallery-card--exploded">
             <div class="eva-gallery-card__meta"><span>03</span><h3>Exploded layer view</h3></div>
-            <div class="eva-layer-stack" role="img" aria-label="Exploded conceptual pad layers including top layer, sensing layer, absorbent core, waterproof backing, electrodes, and reader connection">
-              <div><span>Skin-contact top layer</span></div>
-              <div><span>Fluid distribution / sensing layer</span></div>
-              <div><span>Integrated electrode region</span></div>
-              <div><span>Absorbent core</span></div>
-              <div><span>Waterproof backing</span></div>
-              <i><span>Reader connection</span></i>
-            </div>
+            <img class="eva-gallery-image eva-gallery-image--layer" src="../assets/eva/sensing-layer.png" alt="EVA sensing-layer architecture">
           </article>
           <article class="eva-gallery-card eva-gallery-card--reader">
             <div class="eva-gallery-card__meta"><span>04</span><h3>Detachable reader</h3></div>
-            <div class="eva-reader-render" role="img" aria-label="Conceptual detachable EVA reader"><i></i><img class="eva-product-logo" src="../assets/logos/EVA.png" alt="EVA"><small>REUSABLE READER</small></div>
+            <img class="eva-gallery-image" src="../assets/eva/logger-detach.png" alt="Detachable EVA reader">
           </article>
           <article class="eva-gallery-card eva-gallery-card--kit">
             <div class="eva-gallery-card__meta"><span>05</span><h3>Starter kit</h3></div>
-            <div class="eva-kit-render" role="img" aria-label="Conceptual EVA starter kit packaging"><img class="eva-product-logo eva-product-logo--kit" src="../assets/logos/EVA.png" alt="EVA"><small>STARTER KIT</small><i></i></div>
+            <img class="eva-gallery-image" src="../assets/eva/starterkit.png" alt="EVA starter kit">
           </article>
           <article class="eva-gallery-card eva-gallery-card--app">
             <div class="eva-gallery-card__meta"><span>06</span><h3>Application interface</h3></div>
-            <div class="eva-app-render" role="img" aria-label="Conceptual EVA mobile application interface showing a longitudinal trend without numerical medical data"><span>Longitudinal view</span><i class="eva-app-render__curve"></i><b></b><b></b><b></b></div>
+            <img class="eva-gallery-image eva-gallery-image--application" src="../assets/eva/application.png" alt="EVA application interface">
           </article>
         </div>
       </div>
@@ -177,13 +170,7 @@
         </div>
 
         <div class="eva-tech-layout reveal">
-          <div class="eva-tech-architecture" role="img" aria-label="Conceptual EVA technology architecture from menstrual fluid interaction to longitudinal application view">
-            <div class="eva-electrode-detail"><span>Fluid interaction</span><i></i><i></i><i></i><b></b></div>
-            <div class="eva-tech-flow" aria-hidden="true"><i></i></div>
-            <div class="eva-tech-reader"><span>Signal acquisition</span><img class="eva-product-logo" src="../assets/logos/EVA.png" alt="EVA"><small>READER</small></div>
-            <div class="eva-tech-flow" aria-hidden="true"><i></i></div>
-            <div class="eva-tech-data"><span>Longitudinal view</span><i></i><i></i><i></i></div>
-          </div>
+          <div class="eva-tech-architecture"><img class="eva-tech-architecture__image" src="../assets/eva/eva-concept.png" alt="EVA technology architecture from sensing interface to longitudinal interpretation"></div>
           <div class="eva-tech-modules">
             <article><span>01</span><div><h3>Electrochemical Sensing Interface</h3><p>Flexible sensor elements designed to respond to selected chemical changes in menstrual fluid.</p></div></article>
             <article><span>02</span><div><h3>Integrated Fluid Interaction</h3><p>A sensing region positioned within the pad architecture to interact with collected menstrual fluid.</p></div></article>
