@@ -18,7 +18,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=Manrope:wght@400;500;600&amp;family=Newsreader:opsz,wght@6..72,400;6..72,500&amp;display=swap" rel="stylesheet">
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/logos/WE-Sensing.png" type="image/png">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="assets/page-extensions.css">
   <script src="scripts/team-data.js" defer></script>
@@ -239,22 +239,17 @@
         <div class="eva-visual reveal" data-visual="eva-architecture" role="img" aria-label="Conceptual EVA workflow showing a smart pad, reusable reader, and application">
           <div class="eva-step eva-pad">
             <span class="eva-step-label">01 / SENSING PAD</span>
-            <svg viewBox="0 0 300 430" aria-hidden="true">
-              <path class="pad-body" d="M150 12c45 0 70 52 72 104 2 43 63 60 63 99s-61 55-63 99c-2 52-27 104-72 104s-70-52-72-104c-2-44-63-60-63-99s61-56 63-99C80 64 105 12 150 12Z"/>
-              <path class="pad-core" d="M150 78c28 0 37 35 38 73 1 32 36 39 36 64s-35 32-36 64c-1 38-10 73-38 73s-37-35-38-73c-1-32-36-39-36-64s35-32 36-64c1-38 10-73 38-73Z"/>
-              <path class="pad-sensor" d="M116 177h68v76h-68zM150 177v76M116 215h68"/>
-              <circle cx="150" cy="215" r="10"/>
-            </svg>
+            <img class="eva-step__image eva-step__image--pad" src="assets/eva/eva-pad.png" alt="EVA sensing pad">
           </div>
           <div class="eva-connector connector-one" aria-hidden="true"><span></span></div>
           <div class="eva-step eva-reader">
             <span class="eva-step-label">02 / READER</span>
-            <div class="reader-device"><i></i><img class="eva-product-logo" src="assets/logos/EVA.png" alt="EVA"><small>REUSABLE</small></div>
+            <img class="eva-step__image eva-step__image--reader" src="assets/eva/eva-logger.png" alt="EVA reusable reader">
           </div>
           <div class="eva-connector connector-two" aria-hidden="true"><span></span></div>
           <div class="eva-step eva-app">
             <span class="eva-step-label">03 / APPLICATION</span>
-            <div class="app-device"><div class="app-bar"><i></i><i></i></div><strong>Cycle view</strong><div class="app-curve"></div><div class="app-lines"><i></i><i></i><i></i></div></div>
+            <img class="eva-step__image eva-step__image--application" src="assets/eva/application.png" alt="EVA application interface">
           </div>
         </div>
       </div>
@@ -298,7 +293,7 @@
           <div class="contact-route"><span>03</span><p>WE-Sensing will review fit and next steps</p></div>
         </div>
 
-        <form class="inquiry-form reveal" id="inquiry-form" action="mailto:wesensing.ct@gmail.com" method="post" enctype="text/plain">
+        <form class="inquiry-form reveal" id="inquiry-form" action="https://formsubmit.co/ajax/xingyu@we-sensing.com" method="post" novalidate>
           <fieldset>
             <legend>What can we help with?</legend>
             <div class="category-grid">
@@ -316,10 +311,12 @@
           </div>
           <label>Organization <span>(optional)</span><input type="text" name="organization" autocomplete="organization"></label>
           <label>How can we help?<textarea name="message" rows="4" required></textarea></label>
+          <div class="form-honeypot" aria-hidden="true"><label>Leave this field empty<input type="text" name="_honey" tabindex="-1" autocomplete="off"></label></div>
           <div class="form-footer">
-            <p>Submitting opens your default email application. Do not share medical information.</p>
+            <p>Please do not share medical information.</p>
             <button class="button button-primary" type="submit">Send inquiry <span aria-hidden="true">↗</span></button>
           </div>
+          <p class="form-status" id="form-status" role="status" aria-live="polite" hidden></p>
         </form>
       </div>
     </section>
