@@ -4,18 +4,6 @@
   var content = window.WESensingEVA;
   if (!content) return;
 
-  function setEvaFavicon() {
-    if (!/^\/eva\/?$/.test(window.location.pathname)) return;
-    var icon = document.querySelector('link[rel~="icon"]');
-    if (!icon) {
-      icon = document.createElement('link');
-      icon.rel = 'icon';
-      document.head.appendChild(icon);
-    }
-    icon.href = '/assets/logos/EVA.png';
-    icon.type = 'image/png';
-  }
-
   function renderLocalNavigation() {
     var list = document.querySelector('[data-eva-local-navigation]');
     if (!list) return;
@@ -64,7 +52,6 @@
   }
 
   function renderPageData() {
-    setEvaFavicon();
     renderLocalNavigation();
     renderRoadmap();
     renderPartnerships();

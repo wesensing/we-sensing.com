@@ -4,7 +4,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {squarespace-headers}
-  <link rel="icon" href="/assets/logos/WE-Sensing.png" type="image/png">
+  <link rel="icon" data-site-favicon href="/assets/logos/WE-Sensing.png?v=20260802" type="image/png">
+  <link rel="shortcut icon" data-site-favicon href="/assets/logos/WE-Sensing.png?v=20260802" type="image/png">
+  <script>
+    if (/^\/eva\/?$/.test(window.location.pathname)) {
+      document.querySelectorAll('link[data-site-favicon]').forEach(function (icon) {
+        icon.href = '/assets/logos/EVA.png?v=20260802';
+      });
+    }
+  </script>
   <link rel="stylesheet" href="/assets/page-extensions.css">
   <squarespace:script data-preserve-html-node="true" src="team-data.js" combo="true" />
   <squarespace:script data-preserve-html-node="true" src="team-renderer.js" combo="true" />
