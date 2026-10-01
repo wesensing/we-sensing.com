@@ -1,4 +1,10 @@
-# WE-Sensing website
+# WE-Sensing website (deprecated)
+
+> [!WARNING]
+> **This repository is deprecated and no longer publishes the website.**
+> Since October 2026, https://we-sensing.com/ is built from
+> [we-sensing-wang/we-sensing-wang.github.io](https://github.com/we-sensing-wang/we-sensing-wang.github.io).
+> Make all website changes there. This repository is kept only for history.
 
 WE-Sensing’s website presents the parent electrochemical sensing company, its primary water and wastewater work, and EVA as a distinct women’s-health venture under development. The current visual system and homepage water/technology content are intentionally preserved.
 
